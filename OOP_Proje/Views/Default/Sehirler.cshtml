@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Deneme</title>
+
+</head>
+<body>
+    <div class="container">
+    <a href="/Default/Index" class="btn btn-dark">Ana Sayfa</a>
+        <a href="/Default/Urunler">Ürünler Sayfası</a>
+        <a href="/Default/Musteriler">Müşteriler Sayfası</a>
+
+
+        <h1>Şehirler Paneli</h1>
+        <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Ülke</th>
+            <th>Şehir</th>
+            <th>Nüfus</th>
+            <th>Renk 1</th>
+            <th>Renk 2</th>
+        </tr>
+        <tr>
+                <td>1</td>
+            <td>@ViewBag.su</td>
+            <td>@ViewBag.sa</td>
+            <td>@ViewBag.sn</td>
+            <td>@ViewBag.sr1</td>
+            <td>@ViewBag.sr2</td>
+        </tr>
+        <tr>
+                <td>2</td>
+            <td>@ViewBag.suu</td>
+            <td>@ViewBag.saa</td>
+            <td>@ViewBag.snn</td>
+            <td>@ViewBag.sr11</td>
+            <td>@ViewBag.sr22</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

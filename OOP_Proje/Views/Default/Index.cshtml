@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <a href="/Home/Index">Home Sayfası</a>
+
+    <a href="/Default/Urunler">Ürünler Sayfası</a>
+    <a href="/Default/Musteriler">Müşteriler Sayfası</a>
+    <a href="/Default/Sehirler">Şehirler</a>
+
+    <h3>Kullanıcı Adı. @ViewBag.kAdi</h3>
+
+    <h1>Merhaba, Bu Core OOP Projesidir</h1>
+    <hr />
+    <h1>Mesajlar</h1>
+    <h1>-------------</h1>
+    <h2>@ViewBag.m1</h2>
+    <h2>@ViewBag.m2</h2>
+    <h2>@ViewBag.m3</h2>
+
+    <hr />
+    <h1>Mesaj Listesi</h1>
+    <h1>-------------</h1>
+    <h2>@ViewBag.v</h2>
+
+    <hr />
+    <h3>Toplam: @ViewBag.tp</h3>
+
+</body>
+</html>
